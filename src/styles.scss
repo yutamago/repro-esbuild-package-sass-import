@@ -1,3 +1,2 @@
-/* You can add global styles to this file, and also import other style files */
-@use "@angular/material" as mat;
-@use "@shared/styles/functions";
+@use "@angular/material";        // this one works fine
+@use "@shared/styles/functions"; // this one breaks the build

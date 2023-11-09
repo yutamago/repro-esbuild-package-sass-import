@@ -16,6 +16,11 @@ It's only included to demonstrate that actual packages are not affected.*
 
 ### [src/styles.scss](src/styles.scss)
 ````scss
-@use "@angular/material" as mat; // this one works fine
+@use "@angular/material";        // this one works fine
 @use "@shared/styles/functions"; // this one breaks the build
+````
+
+### [src/shared/styles/functions.scss](src/shared/styles/functions.scss)
+````scss
+// exists
 ````
